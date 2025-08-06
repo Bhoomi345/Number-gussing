@@ -1,48 +1,55 @@
-# 🎯 OIBSIP_Java_Task2: Number Guessing Game
+# 🏦 OIBSIP_Java_Task3: ATM Interface
 
 ## 📌 Task Title
-**Number Guessing Game** – Console-based interactive game built using Java.
+**ATM Interface** – A console-based ATM simulation program developed using Java.
 
 ## 🧠 Objective
-The main goal of this task was to develop a simple number guessing game using Java to demonstrate the use of basic programming concepts like loops, conditional statements, random number generation, and user input handling. This project was completed as a part of my internship at **OIB-SIP (Oasis Infobyte Summer Internship Program)**.
+The objective of this task is to simulate basic ATM functionalities using Java programming. This includes user login authentication, balance inquiry, deposits, withdrawals, money transfers, and viewing transaction history. The goal was to apply fundamental programming concepts in a real-world scenario and enhance logical thinking and coding skills.
 
 ---
 
 ## ⚙️ Tools & Technologies Used
 
-- **Programming Language:** Java (JDK 8+)
-- **IDE Used:** VS Code / IntelliJ IDEA / Eclipse (choose one)
-- **Java Classes:** `Scanner`, `Random`
-- **Operating System:** Windows/Linux/Mac
+- **Language:** Java  
+- **IDE:** IntelliJ IDEA / VS Code / Eclipse (choose your IDE)  
+- **Java Concepts:** Scanner, Loops, Conditional Statements, Methods, String handling  
+- **Platform:** Console-based (CLI Application)
 
 ---
 
 ## 🚀 Steps Performed
 
-1. Initialized a Java project and created a main class `NumberGuessGame`.
-2. Used the `Random` class to generate a secret number between 1 and 100.
-3. Allowed the user a limited number of attempts to guess the number.
-4. Displayed hints if the guess was too high or too low.
-5. Tracked attempts and displayed success or failure messages accordingly.
-6. Implemented input validation and replay option.
-7. Recorded a short demo video of the working project for submission.
+1. Created a Java class `ATM` to handle the core logic.
+2. Implemented a login system using user ID and PIN.
+3. Created a menu-driven interface for the following options:
+   - View Transaction History
+   - Withdraw Money
+   - Deposit Money
+   - Transfer Money
+   - Exit/Quit
+4. Used Java’s `Scanner` for input and `String` to maintain transaction history.
+5. Ensured input validation for incorrect choices and insufficient balance.
+6. Recorded a working demo video of the project execution.
 
 ---
 
-## 📽️ Video Demo
-https://www.linkedin.com/feed/update/urn:li:activity:7358789545959575556/
+## 📽️ Demo Video
 
+
+> *(Demonstration of the project features and workflow.)*
 
 ---
 
 ## 📚 Outcome & Learnings
 
-- Improved understanding of **Java fundamentals**.
-- Hands-on experience with **user input handling** and **random number logic**.
-- Built a fully functional and user-friendly console-based application.
-- Learned to structure code efficiently and handle edge cases.
+- Gained hands-on experience in **Java programming and logic building**.
+- Improved skills in **user input handling**, **modular programming**, and **condition-based flows**.
+- Understood the practical use of loops, switch cases, and method-based structure.
+- Learned to build **interactive CLI-based applications** from scratch.
 
 ---
+
+## 📁 Project Structure
 
 
 
